@@ -35,3 +35,26 @@ nav {
     bottom: 0;
     background: rgba(0, 0, 0, .5);
 }
+
+.btn-primary {
+    background-color: $main-color;
+    padding: 12px 20px;
+    justify-content: center;
+    border: 0;
+}
+
+.services {
+    padding: 80px 0;
+
+    .row {
+        padding-top: 60px;
+    }
+
+    h2 {
+        font-weight: 700;
+    }
+
+    img {
+        padding-bottom: 20px;
+    }
+}
