@@ -1,2 +1,30 @@
+.body {
+  font-family: "Montserrat", sans-serif;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+nav {
+  z-index: 1;
+}
+
+nav a {
+  color: #fff;
+}
+
+.wrapper {
+  height: 700px;
+  position: relative;
+  background-image: url("/images/Background.png");
+  color: #fff;
+  margin-top: -58px;
+}
+
+.wrapper:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFNQTtFQUNJLHFDQUxNO0FDQVY7O0FEUUE7RUFDSSxVQUFVO0FDTGQ7O0FESUE7RUFJUSxXQUFXO0FDSm5COztBRFFBO0VBQ0ksYUFBYTtFQUNiLGtCQUFrQjtFQUVsQiwrQ0FBK0M7RUFDL0MsV0FBVztFQUNYLGlCQUFpQjtBQ05yQjs7QURTQTtFQUVJLFdBQVc7RUFDWCxrQkFBa0I7RUFDbEIsT0FBTztFQUNQLFFBQVE7RUFDUixNQUFNO0VBQ04sU0FBUztFQUNULDhCQUE2QjtBQ1BqQyIsImZpbGUiOiJzdHlsZS5jc3MifQ== */

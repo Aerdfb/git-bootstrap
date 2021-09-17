@@ -1,0 +1,37 @@
+$main-color: #fed136;
+$main-font: 'Montserrat',
+sans-serif;
+$main-font-color: #222222;
+$second-font-color: #777777;
+
+.body {
+    font-family: $main-font;
+}
+
+nav {
+    z-index: 1;
+
+    a {
+        color: #fff;
+    }
+}
+
+.wrapper {
+    height: 700px;
+    position: relative;
+
+    background-image: url("/images/Background.png");
+    color: #fff;
+    margin-top: -58px;
+}
+
+.wrapper:before {
+
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+}
