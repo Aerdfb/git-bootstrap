@@ -8,6 +8,7 @@ $second-font-color: #777777;
     font-family: $main-font;
 }
 
+/* Header */
 nav {
     z-index: 1;
 
@@ -43,6 +44,7 @@ nav {
     border: 0;
 }
 
+/* Services */
 .services {
     padding: 80px 0;
 
@@ -57,4 +59,31 @@ nav {
     img {
         padding-bottom: 20px;
     }
+}
+
+/* Portfolio */
+.portfolio {
+    background-color: #f7f7f7;
+    padding: 80px 0;
+
+    .row {
+        padding-top: 30px;
+    }
+
+
+    h2 {
+        font-weight: 700;
+    }
+
+    h5 {
+        font-weight: 700;
+    }
+
+    p {
+        font-style: italic;
+    }
+}
+
+.card {
+    border: none;
 }
