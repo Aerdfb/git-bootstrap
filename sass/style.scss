@@ -18,6 +18,14 @@ nav {
 
     color: white;
     font-weight: 400;
+
+    a {
+        padding-right: 20px;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: $main-color;
 }
 
 .navbar-nav ul li {
@@ -29,6 +37,8 @@ nav {
     height: 700px;
     position: relative;
     background-image: url("/images/Background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     color: #fff;
     margin-top: -58px;
 
@@ -43,7 +53,8 @@ nav {
     }
 
     .btn-primary:hover {
-        background-color: $main-color;
+        background-color: #fff;
+        color: $main-color;
     }
 
     h3 {
@@ -152,9 +163,27 @@ footer {
         color: #fff;
     }
 
+    a:hover {
+        color: #fff;
+    }
+
     .social {
         margin: 0 auto;
     }
 
+    .twitter:hover {
+        background-color: #00abed;
+    }
 
+    .facebook:hover {
+        background-color: #3b5997;
+    }
+
+    .pinterest:hover {
+        background-color: #cb1f27;
+    }
+
+    .google:hover {
+        background-color: #d92713;
+    }
 }
