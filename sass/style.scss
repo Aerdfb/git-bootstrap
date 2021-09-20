@@ -11,20 +11,52 @@ $second-font-color: #777777;
 /* Header */
 nav {
     z-index: 1;
-
-    a {
-        color: #fff;
-    }
+    padding-top: 20px;
 }
+
+.navbar-light .navbar-nav .nav-link {
+
+    color: white;
+    font-weight: 400;
+}
+
+.navbar-nav ul li {
+    padding: auto 20px;
+}
+
 
 .wrapper {
     height: 700px;
     position: relative;
-
     background-image: url("/images/Background.png");
     color: #fff;
     margin-top: -58px;
+
+    .row {
+        height: 700px;
+    }
+
+    .btn-primary {
+        margin-top: 20px;
+        padding: 16px 52px;
+        font-weight: 700;
+    }
+
+    .btn-primary:hover {
+        background-color: $main-color;
+    }
+
+    h3 {
+        font-size: 50px;
+        font-style: italic;
+        font-weight: 100;
+    }
+
+    h1 {
+        font-size: 72px;
+    }
 }
+
 
 .wrapper:before {
 
@@ -42,6 +74,14 @@ nav {
     padding: 12px 20px;
     justify-content: center;
     border: 0;
+}
+
+.wrapper-text {
+    align-items: center;
+    margin-top: auto;
+    display: flex;
+    height: 100%;
+
 }
 
 /* Services */
